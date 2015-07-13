@@ -1,0 +1,22 @@
+{
+    "name": "lion/yii2-pinyin",
+    "description": "yii2的拼音扩展",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," pinyin", "RESTful"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lion",
+            "email": "lion.888@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lion\\yii2\\pinyin\\": ""
+        }
+    }
+}
